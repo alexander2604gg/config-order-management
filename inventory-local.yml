@@ -4,12 +4,3 @@ spring:
     url: jdbc:mysql://localhost:3306/inventoryDB
     username: root
     password: alexander
-
-  jpa:
-    hibernate:
-      ddl-auto: update
-      show-sql: true
-    database-platform: org.hibernate.dialect.MySQL8Dialect
-
-server:
-  port: 9090
