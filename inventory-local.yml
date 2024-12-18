@@ -1,6 +1,6 @@
 spring:
   datasource:
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
-    url: jdbc:sqlserver://localhost:1433;databaseName=inventario
+    url: jdbc:sqlserver://localhost:1433;databaseName=inventario;encrypt=false
     username: sa
     password: 152003
