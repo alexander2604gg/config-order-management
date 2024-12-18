@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
-    url: jdbc:sqlserver://localhost:1433;databaseName=productos
+    url: jdbc:sqlserver://localhost:1433;databaseName=productos;encrypt=false
     username: sa
     password: 152003
 
