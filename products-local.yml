@@ -1,7 +1,6 @@
 spring:
   datasource:
-    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
-    url: jdbc:sqlserver://localhost:1433;databaseName=productos;encrypt=false
-    username: sa
-    password: A152003.
-
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://dpg-d13im4u3jp1c73d4ifcg-a.oregon-postgres.render.com:5432/productos_x7nl
+    username: productos_x7nl_user
+    password: FwZokziXveoTHsZHugPPYtvDevDNoZh2
