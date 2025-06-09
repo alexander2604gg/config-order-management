@@ -3,4 +3,4 @@ spring:
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
     url: jdbc:sqlserver://localhost:1433;databaseName=ventas;encrypt=false
     username: sa
-    password: 152003
+    password: A152003.
