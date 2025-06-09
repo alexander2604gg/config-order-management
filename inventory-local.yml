@@ -1,6 +1,6 @@
 spring:
   datasource:
-    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
-    url: jdbc:sqlserver://localhost:1433;databaseName=inventario;encrypt=false
-    username: sa
-    password: A152003.
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://dpg-d13iqdogjchc738to900-a.oregon-postgres.render.com:5432/inventario_4ah1
+    username: inventario_4ah1_user
+    password: U59ytq61sSviY8oEFHSG4iaeH1pGQPOB
